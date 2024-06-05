@@ -21,6 +21,7 @@ Name | Mail Server | Web Mail Client | Review | Resource Usage
 
 
 ### References
+- [Google Postmaster - verify your self-hosted mail server](https://postmaster.google.com) using [DMARC, DKIM, and SPF](https://www.cloudflare.com/en-au/learning/email-security/dmarc-dkim-spf/)
 - [awesome-opensource-email](https://github.com/Mindbaz/awesome-opensource-email)
 - [Open source web email server](https://forwardemail.net/en/blog/open-source/web-email-server)
 - [Looking for a lightweight email server that runs in Docker - 2021](https://www.reddit.com/r/selfhosted/comments/pqbhej/looking_for_a_lightweight_email_server_that_runs/)
