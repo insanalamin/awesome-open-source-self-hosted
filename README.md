@@ -16,8 +16,8 @@ Name | Mail Server | Web Mail Client | Review | Resource Usage
 [Maddy](https://maddy.email) |✅||117➕|
 [Rainloop](https://www.rainloop.net) ||✅|| 
 [Zimbra](https://www.zimbra.com) |✅|✅||
-[Roundcube] ||✅|34➕|
-[Squirrelmail] ||✅|13➕|
+[Roundcube]() ||✅|34➕|
+[Squirrelmail]() ||✅|13➕|
 
 ### Mail Validator and Checker
 - [Google Postmaster](https://postmaster.google.com/)
