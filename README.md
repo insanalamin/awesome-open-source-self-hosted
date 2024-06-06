@@ -19,9 +19,11 @@ Name | Mail Server | Web Mail Client | Review | Resource Usage
 [Roundcube] ||✅|34➕|
 [Squirrelmail] ||✅|13➕|
 
-### MX Validator and Checker
+### Mail Validator and Checker
+- [Google Postmaster](https://postmaster.google.com/)
 - [DKIM Checker](https://mxtoolbox.com/dkim.aspx)
 - [SPF Checker](https://mxtoolbox.com/SuperTool.aspx?action=spf)
+- [DMARC Checker](https://dmarcly.com/tools/dmarc-checker)
 
 ### References
 - [Google Postmaster - verify your self-hosted mail server](https://postmaster.google.com) using [DMARC, DKIM, and SPF](https://www.cloudflare.com/en-au/learning/email-security/dmarc-dkim-spf/)
