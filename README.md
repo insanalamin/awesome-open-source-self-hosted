@@ -1,6 +1,14 @@
 # awesome-open-source-self-hosted
 Awesome Open Source Self Hosted
 
+## Document
+
+### PDF Processor
+Name | Pipeline | Arrange | Convert to PDF | Compress | Place Image
+---|---|---|---|---|---
+[Stirling PDF](https://github.com/Stirling-Tools/Stirling-PDF) |✅|✅|✅|✅|✅
+
+
 ## Email
 
 Name | Mail Server | Web Mail Client | Review | Resource Usage
