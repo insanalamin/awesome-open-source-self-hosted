@@ -40,3 +40,11 @@ Name | Mail Server | Web Mail Client | Review | Resource Usage
 - [Open source web email server](https://forwardemail.net/en/blog/open-source/web-email-server)
 - [Looking for a lightweight email server that runs in Docker - 2021](https://www.reddit.com/r/selfhosted/comments/pqbhej/looking_for_a_lightweight_email_server_that_runs/)
 - [Docker Mailserver Intro](https://docker-mailserver.github.io/docker-mailserver/latest/introduction/)
+
+## Serverless
+Name | Features | Review | Resource Usage
+---|---|---|---
+[OpenFaas]() |||
+
+### References
+- [Awesome Serverless](https://github.com/anaibol/awesome-serverless)
