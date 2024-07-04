@@ -46,12 +46,12 @@ Name | Github Stars | Resource Usage | Trigger | Container Executor | GUI Script
 ---|---|---|---|---|---|---|---|---|---|---|---
 [Argo Workflows](https://github.com/argoproj/argo-workflows) | 14.6k | 250mb | Webhook, API | Custom Image | ✅ | Required | Google, IBM, Metaflow, Kubeflow | Go | ❌ ||
 [Kubeflow]()|||||||||||
-[Flyte]()||||||||Go|||
+[Flyte]()|| ❌ ||||||Go|||K8s on-premise Flyte the Hard Way too complicated
 [Metaflow]()||||||||Python|||
 [Kestra](https://github.com/kestra-io/kestra) | 7k | 1300mb | Webhook, API |||||Java||Data pipeline, ml model deployment, etl|
 [N8n]()|||||||||||Complexity on creating non-Alpine custom Docker image
-[Prefect]()|||||||||||Depends on Hasura which is quite taking resources
-[Windmill]()|||||||||||
+[Prefect](https://github.com/PrefectHQ/prefect)| 15.3k | 400mb |||||| Python ||Data pipeline, ml|Depends on Hasura which is quite taking resources
+[Windmill]()||❌|||||||||K8s installation problem - memory
 [Activepieces]()|||||||||||
 [Dagster]()|||||||||||
 [Cadence]()|||||||||||
@@ -60,6 +60,9 @@ Name | Github Stars | Resource Usage | Trigger | Container Executor | GUI Script
 [Node-RED]()|||||||||||
 [Apache DolphinScheduler]()|||||||||||
 [Temporal]()|||||||||||
+
+### Installations
+- [Workflow Engines Installation on K3d](./workflow-engine/k3d-installation.md)
 
 ### References
 - [Awesome Workflow Engines](https://github.com/meirwah/awesome-workflow-engines?tab=readme-ov-file)
