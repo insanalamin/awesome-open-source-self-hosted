@@ -41,6 +41,14 @@ Name | Mail Server | Web Mail Client | Review | Resource Usage
 - [Looking for a lightweight email server that runs in Docker - 2021](https://www.reddit.com/r/selfhosted/comments/pqbhej/looking_for_a_lightweight_email_server_that_runs/)
 - [Docker Mailserver Intro](https://docker-mailserver.github.io/docker-mailserver/latest/introduction/)
 
+## Workflow Engines
+Name | Github Stars | Resource Usage | Webhook Trigger | Container Executor | Script on GUI | Used By | Dev. Language
+---|---|---|---|---|---|---|---
+[Argo Workflows]() | 14.6k | 7 | Available | Custom Image | ✅ | Google, IBM, Metaflow, Kubeflow | Go
+
+### References
+- [Awesome Workflow Engines](https://github.com/meirwah/awesome-workflow-engines?tab=readme-ov-file)
+
 ## Serverless
 Name | Features | Review | Resource Usage
 ---|---|---|---
