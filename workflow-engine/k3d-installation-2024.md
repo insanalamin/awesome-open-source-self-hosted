@@ -4,7 +4,7 @@
 
 ### Install Using Custom YAML
 
-Applying the resource
+Applying the resource [n8n-timescaledb-namespace.yaml](./n8n-timescaledb-namespace.yaml)
 ```sh
 kubectl apply -f n8n-timescaledb-namespace.yaml
 ```
