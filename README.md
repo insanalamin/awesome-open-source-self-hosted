@@ -42,9 +42,9 @@ Name | Mail Server | Web Mail Client | Review | Resource Usage
 - [Docker Mailserver Intro](https://docker-mailserver.github.io/docker-mailserver/latest/introduction/)
 
 ## Workflow Engines
-Name | Github Stars | Resource Usage | Webhook Trigger | Container Executor | Script on GUI | Used By | Dev. Language
----|---|---|---|---|---|---|---
-[Argo Workflows]() | 14.6k | 7 | Available | Custom Image | ✅ | Google, IBM, Metaflow, Kubeflow | Go
+Name | Github Stars | Resource Usage | Webhook Trigger | Container Executor | Script on GUI | K8S | Used By | Dev. Language
+---|---|---|---|---|---|---|---|---
+[Argo Workflows](https://github.com/argoproj/argo-workflows) | 14.6k | 7 | K8s | Custom Image | ✅ | Required | Google, IBM, Metaflow, Kubeflow | Go
 
 ### References
 - [Awesome Workflow Engines](https://github.com/meirwah/awesome-workflow-engines?tab=readme-ov-file)
