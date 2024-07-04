@@ -49,8 +49,8 @@ Name | Github Stars | Resource Usage | Trigger | Container Executor | GUI Script
 [Flyte]()|| ❌ ||||||Go|||K8s on-premise Flyte the Hard Way too complicated
 [Metaflow]()||||||||Python|||
 [Kestra](https://github.com/kestra-io/kestra) | 7k | 1300mb | Webhook, API |||||Java||Data pipeline, ml model deployment, etl|
-[N8n]()|||||||||||Complexity on creating non-Alpine custom Docker image
-[Prefect](https://github.com/PrefectHQ/prefect)| 15.3k | 400mb |||||| Python ||Data pipeline, ml|Depends on Hasura which is quite taking resources
+[N8n](https://github.com/n8n-io/n8n)| 42.3k | 400mb |||||||||Complexity on creating non-Alpine custom Docker image
+[Prefect](https://github.com/PrefectHQ/prefect)| 15.3k | 500mb |||||| Python ||Data pipeline, ml|Somehow complex, not only prefect server
 [Windmill]()||❌|||||||||K8s installation problem - memory
 [Activepieces]()|||||||||||
 [Dagster]()|||||||||||
