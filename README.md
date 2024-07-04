@@ -42,18 +42,24 @@ Name | Mail Server | Web Mail Client | Review | Resource Usage
 - [Docker Mailserver Intro](https://docker-mailserver.github.io/docker-mailserver/latest/introduction/)
 
 ## Workflow Engines
-Name | Github Stars | Resource Usage | Webhook Trigger | Container Executor | GUI Scripting | K8S | Used By | Dev. Language | Nodes Drag n Drop | Cons
----|---|---|---|---|---|---|---|---|---|---
-[Argo Workflows](https://github.com/argoproj/argo-workflows) | 14.6k | 7 | K8s | Custom Image | ✅ | Required | Google, IBM, Metaflow, Kubeflow | Go | ❌ |
-[Kubeflow]()||||||||||
-[Flyte]()||||||||||
-[Metaflow]()||||||||||
-[Kestra]()||||||||||
-[N8n]()||||||||||Complexity on creating non-Alpine custom Docker image
-[Prefect]()||||||||||Depends on Hasura which is quite taking resources
-[Windmill]()||||||||||
-[Activepieces]()||||||||||
-[Dagster]()||||||||||
+Name | Github Stars | Resource Usage | Trigger | Container Executor | GUI Scripting | K8S | Used By | Dev. Language | Nodes Drag n Drop | ML & Data Eng. | Cons
+---|---|---|---|---|---|---|---|---|---|---|---
+[Argo Workflows](https://github.com/argoproj/argo-workflows) | 14.6k | 250mb | Webhook, API | Custom Image | ✅ | Required | Google, IBM, Metaflow, Kubeflow | Go | ❌ ||
+[Kubeflow]()|||||||||||
+[Flyte]()||||||||Go|||
+[Metaflow]()||||||||Python|||
+[Kestra](https://github.com/kestra-io/kestra) | 7k | 1300mb | Webhook, API |||||Java||Data pipeline, ml model deployment, etl|
+[N8n]()|||||||||||Complexity on creating non-Alpine custom Docker image
+[Prefect]()|||||||||||Depends on Hasura which is quite taking resources
+[Windmill]()|||||||||||
+[Activepieces]()|||||||||||
+[Dagster]()|||||||||||
+[Cadence]()|||||||||||
+[Conductor]()|||||||||||
+[Huginn]()|||||||||||
+[Node-RED]()|||||||||||
+[Apache DolphinScheduler]()|||||||||||
+[Temporal]()|||||||||||
 
 ### References
 - [Awesome Workflow Engines](https://github.com/meirwah/awesome-workflow-engines?tab=readme-ov-file)
