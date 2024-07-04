@@ -44,8 +44,16 @@ Name | Mail Server | Web Mail Client | Review | Resource Usage
 ## Workflow Engines
 Name | Github Stars | Resource Usage | Webhook Trigger | Container Executor | GUI Scripting | K8S | Used By | Dev. Language | Nodes Drag n Drop | Cons
 ---|---|---|---|---|---|---|---|---|---|---
-[Argo Workflows](https://github.com/argoproj/argo-workflows) | 14.6k | 7 | K8s | Custom Image | ✅ | Required | Google, IBM, Metaflow, Kubeflow | Go | ❌
-[]()||||||||||
+[Argo Workflows](https://github.com/argoproj/argo-workflows) | 14.6k | 7 | K8s | Custom Image | ✅ | Required | Google, IBM, Metaflow, Kubeflow | Go | ❌ |
+[Kubeflow]()||||||||||
+[Flyte]()||||||||||
+[Metaflow]()||||||||||
+[Kestra]()||||||||||
+[N8n]()||||||||||Complexity on creating non-Alpine custom Docker image
+[Prefect]()||||||||||Depends on Hasura which is quite taking resources
+[Windmill]()||||||||||
+[Activepieces]()||||||||||
+[Dagster]()||||||||||
 
 ### References
 - [Awesome Workflow Engines](https://github.com/meirwah/awesome-workflow-engines?tab=readme-ov-file)
